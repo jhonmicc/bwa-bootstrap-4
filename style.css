@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* ======== NAVBAR ======== */
+
+.navbar-brand img {
+    width: 100%;
+    height: 100%;
+    max-width: 15rem;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+
+.nav-link {
+    color: #2f281e !important;
+}
+
+.nav-link:hover {
+    color: #857e75 !important;
+    transition: 0.3s;
+}
+
+
+/* ======== HERO ========  */
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #2f281e;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #2f281e;
+}
+
+.col img {
+    width: 100%;
+    /* height: 100%; */
+    max-width: 37.5rem;
+}
+
+.btn-primary {
+    padding: 0.6rem 2rem;
+    background-color: #ff9900;
+    border-color: #ff9900;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    color: #ff9900;
+    background-color: white;
+    border-color: #ff9900;
+    transition: 0.3s;
+}
+
+.btn-secondary {
+    padding: 0.6rem 2rem;
+    background: none;
+    border: 1px solid #bcd0e5;
+    color: #173a56;
+    font-weight: 700;
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: #173a56;
+    border-color: #173a56;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .btn-primary {
+        margin-top: 0.7rem;
+    }
+    .btn-primary {
+        margin-left: 0 !important;
+    }
+    .btn-secondary {
+        margin-left: 0 !important;
+    }
+    .row {
+        flex-direction: column-reverse;
+    }
+}
